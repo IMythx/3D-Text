@@ -19,6 +19,9 @@ body {
   transform-style: preserve-3d;
   text-align: center;
   perspective: 1500px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  position: absolute;
+  top: 15%;
 }
 
 p {
@@ -28,7 +31,7 @@ p {
   position: absolute;
   font-size: 8em;
   font-weight: bold;
-  text-shadow: 0 0 20px rgb(172, 172, 172);
+  text-shadow: 0 0 20px rgb(177, 177, 177);
   /* -webkit-text-stroke: 0.1rem #fff; */
   letter-spacing: 1px;
   animation: animate 18s linear infinite;
